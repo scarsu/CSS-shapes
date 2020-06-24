@@ -82,3 +82,126 @@
 </style>
 ```
 
+
+## 用box-shadow画像素图
+
+<div class="pixel-shape"></div>
+
+<style>
+.pixel-shape{
+  box-shadow:4em 0em #000, 
+  3em 1em #000, 
+  2em 2em #000, 
+  1em 3em #000, 
+  0em 4em #000, 
+  -1em 3em #000, 
+  -2em 2em #000, 
+  -3em 1em #000, 
+  -4em 0em #000, 
+  -5em -1em #000, 
+  -5em -2em #000, 
+  -4em -3em #000, 
+  -3em -4em #000, 
+  -2em -4em #000, 
+  -1em -3em #000, 
+  0em -2em #000, 
+  1em -3em #000, 
+  2em -4em #000, 
+  3em -4em #000, 
+  4em -3em #000, 
+  5em -2em #000, 
+  5em -1em #000, 
+  2em 0em #fff, 
+  2em -1em #fff, 
+  3em -1em #fff, 
+  3em -2em #fff, 
+  4em -1em red, 
+  4em -2em red, 
+  3em 0em red, 
+  3em -3em red, 
+  2em 1em red, 
+  2em -2em red, 
+  2em -3em red, 
+  1em -2em red, 
+  1em -1em red, 
+  1em 0em red, 
+  1em 1em red, 
+  1em 2em red, 
+  1em 3em red, 
+  0em -1em red, 
+  0em 0em red, 
+  0em 1em red, 
+  0em 2em red, 
+  0em 3em red, 
+  -1em -2em red, 
+  -1em -1em red, 
+  -1em 0em red, 
+  -1em 1em red, 
+  -1em 2em red, 
+  -1em 3em red, 
+  -2em -3em red, 
+  -2em -2em red, 
+  -2em -1em red, 
+  -2em 0em red, 
+  -2em 1em red, 
+  -3em -3em red, 
+  -3em -2em red, 
+  -3em -1em red, 
+  -3em 0em red, 
+  -4em -1em red, 
+  -4em -2em red;
+    background: red;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    margin: 4em 5em;
+  }
+</style>
+
+```html
+<div class="pixel-shape"></div>
+
+<style>
+#pixel-shape{
+  box-shadow:
+    0 0 0 1em red,
+    0 1em 0 1em red,
+    -2.5em 1.5em 0 .5em red,
+    2.5em 1.5em 0 .5em red,
+    -3em -3em 0 0 red,
+    3em -3em 0 0 red,
+    -2em -2em 0 0 red,
+    2em -2em 0 0 red,
+    -3em -1em 0 0 red,
+    -2em -1em 0 0 red,
+    2em -1em 0 0 red,
+    3em -1em 0 0 red,
+    -4em 0 0 0 red,
+    -3em 0 0 0 red,
+    3em 0 0 0 red,
+    4em 0 0 0 red,
+    -5em 1em 0 0 red,
+    -4em 1em 0 0 red,
+    4em 1em 0 0 red,
+    5em 1em 0 0 red,
+    -5em 2em 0 0 red,
+    5em 2em 0 0 red,
+    -5em 3em 0 0 red,
+    -3em 3em 0 0 red,
+    3em 3em 0 0 red,
+    5em 3em 0 0 red,
+    -2em 4em 0 0 red,
+    -1em 4em 0 0 red,
+    1em 4em 0 0 red,
+    2em 4em 0 0 red;
+
+    background: red;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+
+    margin: 50px 0 70px 65px;
+  }
+</style>
+```
+
