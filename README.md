@@ -5,6 +5,8 @@
 
 ## split table header
 
+![preview](./preview/00.png)
+
 <div class="split-header">
   <div class="right"></div>
   <div class="left"></div>
@@ -86,6 +88,8 @@
 
 
 ## 用box-shadow画像素图
+
+![preview](./preview/01.png)
 
 <div class="pixel-shape"></div>
 
