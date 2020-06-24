@@ -1,6 +1,8 @@
 # CSS-shapes
 原生CSS实现各种形状
 
+源码都写在了这个markdown里，但是gayhub的markdown解析不支持 `<style>` 和类名之类，所以看不到效果，下载源文件放VSC看效果最佳🍻
+
 ## split table header
 
 <div class="split-header">
